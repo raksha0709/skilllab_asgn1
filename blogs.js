@@ -1,5 +1,6 @@
 import express from "express"
 import mongoose from "mongoose";
+import NodeCache from "node-cache";
 const app=express();
 app.use(express.json())
 const mongoURI='mongodb://0.0.0.0:27017/Notes'
